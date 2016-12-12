@@ -1,0 +1,42 @@
+body {
+  background-image: url("http://68.media.tumblr.com/22399374f5ac8775005c1a18bdbd234c/tumblr_inline_nil0r8ZKdY1rs71sz.gif");
+  background-position: bottom;
+  background-size: cover;
+}
+
+
+h1 {
+  text-align: center;
+  color: grey;
+}
+
+
+.tablebox {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 800px;
+  height: 650px;
+}
+
+.table {
+  width: 800px;
+  height: 650px;
+  border-color: #2b414f;
+}
+
+
+.cell {
+  width: 110px;
+  height: 110px;
+}
+
+.tree {
+  width: 145px;
+  height: 145px;
+}
+
+.snowman {
+  width: 145px;
+  height: 145px;
+}
