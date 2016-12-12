@@ -10,8 +10,15 @@ h1 {
   color: grey;
 }
 
+h2 {
+  text-align: left;
+  color: red;
+  padding-top: 30px;
+  padding-left: 30px;
+}
 
-.tablebox {
+
+#tablebox {
   text-align: center;
   margin: 0 auto;
   padding-top: 50px;
@@ -27,16 +34,23 @@ h1 {
 
 
 .cell {
-  width: 110px;
+  width: 135px;
   height: 110px;
+  display: none;
 }
 
 .tree {
+  background-image: url("http://nn4now.co.uk/wp-content/uploads/2015/11/tree.jpg");
+  background-size: cover;
+  background-position: center;
   width: 145px;
   height: 145px;
 }
 
 .snowman {
+  background-image: url("http://imgs.tuts.dragoart.com/how-to-draw-a-christmas-snowman_1_000000014394_5.png");
+  background-size: cover;
+  background-position: center;
   width: 145px;
   height: 145px;
 }
