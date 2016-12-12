@@ -6,8 +6,6 @@ $(start);
 function start() {
   var cells = document.getElementsByClassName('cell');
   fadeInAndOut(cells);
-
-
 }
 
 function fadeInAndOut(cells) {
@@ -18,11 +16,14 @@ function fadeInAndOut(cells) {
 
     setTimeout(function() {
       console.log(table);
-      // bloop.toggleClass('tree');
       $('.cell').removeClass('tree');
       $('.cell').removeClass('snowman');
-    }, 3000);
+    }, 4000);
   }
 }
 
-//Now for the click function, want the cells background-image to appear after every click.
+//Now for the click function, I want the cells background-image to appear after every click.
+
+function click(images) {
+  document.getElementsByClassName('cell').addEventListener('click', images);
+}

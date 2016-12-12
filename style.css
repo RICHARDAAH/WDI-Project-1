@@ -12,16 +12,22 @@ h1 {
 
 h2 {
   text-align: left;
-  color: red;
+  color: #61756f;
   padding-top: 30px;
   padding-left: 30px;
 }
 
+p {
+  text-align: left;
+  color: #61756f;
+  padding-left: 30px;
+}
 
-#tablebox {
+
+  #tablebox {
   text-align: center;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 10px;
   width: 800px;
   height: 650px;
 }
