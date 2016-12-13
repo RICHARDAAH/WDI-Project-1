@@ -2,54 +2,17 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Project 1</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Memory Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
   <audio src="Bells.mp3" autoplay></audio>
-
   <h1>Memory Game</h1>
-
-  <h2>Level One:</h2>
-  <h4>Find the snowmen with 6 guesses!</h4>
-  <div id="para">
-    <p>Clicks left: <span id="clicksRemaining">6</span></p>
-    <p>Snowmen found: <span id="snowmenFound">0</span></p>
-  </div>
-
-  <div id="tablebox">
-    <table class="table" border="15" cellspacing="3">
-      <tr>
-        <td id="1" class="cell tree"></td>
-        <td id="2" class="cell tree"></td>
-        <td  id="3" class="cell tree"></td>
-        <td id="4" class="cell snowman"></td>
-        <td id="5" class="cell tree"></td>
-      </tr>
-      <tr>
-        <td id="6" class="cell tree"></td>
-        <td id="7" class="cell snowman"></td>
-        <td id="8" class="cell tree"></td>
-        <td id="9" class="cell tree"></td>
-        <td id="10" class="cell tree"></td>
-      </tr>
-      <tr>
-        <td id="11" class="cell tree"></td>
-        <td id="12" class="cell tree"></td>
-        <td id="13" class="cell tree"></td>
-        <td id="14" class="cell tree"></td>
-        <td id="15" class="cell snowman"></td>
-      </tr>
-      <tr>
-        <td id="16" class="cell tree"></td>
-        <td id="17" class="cell tree"></td>
-        <td id="18" class="cell snowman"></td>
-        <td id="19" class="cell tree"></td>
-        <td id="20" class="cell tree"></td>
-      </tr>
-    </table>
-  </div>
+  <h4 class="message"></h4>
+  <p>Clicks left: <span id="clicksRemaining">6</span></p>
+  <p>Snowmen found: <span id="snowmenFound">0</span></p>
 </body>
 </html>

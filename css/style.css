@@ -1,0 +1,42 @@
+body {
+  background: #fafafa;
+  text-align: center;
+  font-family: 'Bungee', cursive;
+}
+
+h1 {
+  color: #2196F3;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.board {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.cell {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  box-sizing: border-box;
+  list-style-type: none;
+  background: white;
+  border: 1px solid #fafafa;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.snowman {
+  background-image: url("../images/snowman.png");
+}
+
+.tree {
+  background-image: url("../images/tree.png");
+}
