@@ -17,6 +17,12 @@ h2 {
   padding-left: 30px;
 }
 
+h4 {
+  text-align: left;
+  color: #61756f;
+  padding-left: 30px;
+}
+
 p {
   text-align: left;
   color: #61756f;
@@ -24,25 +30,44 @@ p {
 }
 
 
-  #tablebox {
+#tablebox {
   text-align: center;
   margin: 0 auto;
   padding-top: 10px;
   width: 800px;
   height: 650px;
+  table-layout: fixed;
 }
 
 .table {
   width: 800px;
   height: 650px;
+  table-layout: fixed;
   border-color: #2b414f;
 }
 
 
+td:hover {
+  background-color: #546887;
+}
+
+
 .cell {
-  width: 135px;
-  height: 110px;
+  max-width: 135px;
+  max-height: 110px;
+  min-width: 135px;
+  min-height: 110px;
   display: none;
+}
+
+
+.snowman {
+  background-image: url("http://imgs.tuts.dragoart.com/how-to-draw-a-christmas-snowman_1_000000014394_5.png");
+  background-size: cover;
+  background-position: center;
+  width: 145px;
+  height: 145px;
+  transition: all 1s;
 }
 
 .tree {
@@ -51,12 +76,5 @@ p {
   background-position: center;
   width: 145px;
   height: 145px;
-}
-
-.snowman {
-  background-image: url("http://imgs.tuts.dragoart.com/how-to-draw-a-christmas-snowman_1_000000014394_5.png");
-  background-size: cover;
-  background-position: center;
-  width: 145px;
-  height: 145px;
+  /*transition: all 1s;*/
 }
