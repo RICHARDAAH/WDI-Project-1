@@ -1,5 +1,5 @@
 body {
-  background: #fafafa;
+  background: #FAFAFA;
   text-align: center;
   font-family: 'Bungee', cursive;
 }
@@ -20,13 +20,13 @@ ul {
 }
 
 .cell {
+  background-color: #CFD8DC;
   float: left;
   width: 100px;
   height: 100px;
   background-size: cover;
   box-sizing: border-box;
   list-style-type: none;
-  background: white;
   border: 1px solid #fafafa;
   background-size: cover;
   background-position: center;
@@ -39,4 +39,8 @@ ul {
 
 .tree {
   background-image: url("../images/tree.png");
+}
+
+button {
+  color: #00695C;
 }
