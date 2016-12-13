@@ -10,17 +10,17 @@ h1 {
   color: grey;
   font-size: 90px;
   text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
+  0 2px 0 #c9c9c9,
+  0 3px 0 #bbb,
+  0 4px 0 #b9b9b9,
+  0 5px 0 #aaa,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);
 }
 
 h2 {
@@ -29,17 +29,17 @@ h2 {
   color: grey;
   padding-left: 30px;
   text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
+  0 2px 0 #c9c9c9,
+  0 3px 0 #bbb,
+  0 4px 0 #b9b9b9,
+  0 5px 0 #aaa,
+  0 6px 1px rgba(0,0,0,.1),
+  0 0 5px rgba(0,0,0,.1),
+  0 1px 3px rgba(0,0,0,.3),
+  0 3px 5px rgba(0,0,0,.2),
+  0 5px 10px rgba(0,0,0,.25),
+  0 10px 10px rgba(0,0,0,.2),
+  0 20px 20px rgba(0,0,0,.15);
 }
 
 h4 {
@@ -57,47 +57,46 @@ p {
 }
 
 
-tablebox {
+#tablebox {
   margin: 0 auto;
   padding-left: 160px;
-  width: 800px;
-  height: 650px;
-  table-layout: fixed;*/
+  padding-right: 160px;
+  width: 600px;
+  height: 550px;
+  table-layout: fixed;
 }
 
 .table {
-  width: 800px;
-  height: 650px;
+  width: 610px;
+  height: 560px;
   table-layout: fixed;
   border-color: black;
   margin: 0 auto;
 }
 
-
-
+#para {
+  float: left;
+  text-align: left;
 }
-
 
 td:hover {
   background-color: #546887;
 }
 
-
 .cell {
-  max-width: 135px;
-  max-height: 110px;
-  min-width: 135px;
-  min-height: 110px;
+  max-width: 250px;
+  max-height: 250px;
+  min-width: 165px;
+  min-height: 145px;
   display: none;
 }
-
 
 .snowman {
   background-image: url("http://imgs.tuts.dragoart.com/how-to-draw-a-christmas-snowman_1_000000014394_5.png");
   background-size: cover;
   background-position: center;
-  width: 145px;
-  height: 145px;
+  width: 115px;
+  height: 115px;
   transition: all 1s;
 }
 
@@ -105,7 +104,7 @@ td:hover {
   background-image: url("http://nn4now.co.uk/wp-content/uploads/2015/11/tree.jpg");
   background-size: cover;
   background-position: center;
-  width: 145px;
-  height: 145px;
-  /*transition: all 1s;*/
+  width: 115px;
+  height: 115px;
+  transition: all 1s;
 }

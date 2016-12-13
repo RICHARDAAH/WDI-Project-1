@@ -53,4 +53,6 @@ function fadeInAndOut(cells) {
 
 // Need to restart the game everytime the player loses.
 
+// style the alert somehow!
+
 //would like to randomise evrytime the player restarts the game!
