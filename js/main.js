@@ -90,7 +90,8 @@ function choose() {
     $clickedSquare.attr('class', 'cell snowman');
     numberOfSnowmenFound++;
     if (numberOfSnowmenFound === 4){
-      return alert('You win!');
+      message.innerHTML = 'You win! <button>Play Again</button>';
+      $(squares).off('click', choose);
     }
   } else {
     $clickedSquare.attr('class', 'cell tree');
@@ -118,5 +119,8 @@ function playAgain(){
   numberOfSnowmen      = 4;
   width                = 5;
   placement            = [];
+
+  $('#clicksRemaining').text(numberOfClicksLeft);
+  $('#snowmenFound').text(numberOfSnowmenFound);
   createBoard();
 }
