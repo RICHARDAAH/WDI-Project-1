@@ -26,7 +26,7 @@ function cellClick(){
     setTimeout(function(){
       var $tds = $('td');
       $($tds[hold]).attr('class', 'cell');
-    }, 2000);
+    }, 6000);
   }
   numberOfClicksLeft--;
   if (numberOfClicksLeft === 0){
@@ -51,8 +51,6 @@ function fadeInAndOut(cells) {
 }
 
 
-// function click(images) {
-//   document.getElementsByClassName('cell').addEventListener('click', images);
-// }
-
 // Need to restart the game everytime the player loses.
+
+//would like to randomise evrytime the player restarts the game!
